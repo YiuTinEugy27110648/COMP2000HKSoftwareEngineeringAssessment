@@ -40,5 +40,14 @@ public class fourthactivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        ImageButton btnback = findViewById(R.id.btn_back);
+        btnback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(fourthactivity.this, secondactivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

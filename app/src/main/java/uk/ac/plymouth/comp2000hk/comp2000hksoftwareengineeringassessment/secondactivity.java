@@ -39,5 +39,6 @@ public class secondactivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
     }

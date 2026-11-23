@@ -67,5 +67,16 @@ public class manager_roomstates_upcoming_d extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageButton btnroom= findViewById(R.id.btn_select_booking_a);
+        btnroom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(manager_roomstates_upcoming_d.this, bookingroom_selectroom_d_b_acceptorreject.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }

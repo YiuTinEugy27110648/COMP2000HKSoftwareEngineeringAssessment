@@ -68,6 +68,34 @@ public class manager_cancelbooking extends AppCompatActivity {
             }
         });
 
+        ImageButton btncancelselectrooma = findViewById(R.id.btn_select_booking_a);
+        btncancelselectrooma.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(manager_cancelbooking.this, managercancelsuccessfully.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton btncancelselectroomb = findViewById(R.id.btn_select_booking_b);
+        btncancelselectroomb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(manager_cancelbooking.this, managercancelsuccessfully.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton btncancelselectroomc = findViewById(R.id.btn_select_booking_c);
+        btncancelselectroomc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(manager_cancelbooking.this, managercancelsuccessfully.class);
+                startActivity(intent);
+            }
+        });
+
+
 
     }
 }

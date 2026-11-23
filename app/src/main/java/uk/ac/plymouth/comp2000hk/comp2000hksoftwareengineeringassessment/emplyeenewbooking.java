@@ -1,0 +1,133 @@
+package uk.ac.plymouth.comp2000hk.comp2000hksoftwareengineeringassessment;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
+
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
+public class emplyeenewbooking extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_emplyeenewbooking);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+                ImageButton btnselectrooma = findViewById(R.id.btn_selectroom_a);
+                btnselectrooma.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(emplyeenewbooking.this, employeenewbookingselectdatetime.class);
+                        startActivity(intent);
+                    }
+                });
+                ImageButton btnselectroomb = findViewById(R.id.btn_selectroom_b);
+                btnselectroomb.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(emplyeenewbooking.this, employeenewbookingselectdatetime.class);
+                        startActivity(intent);
+                    }
+                });
+
+                ImageButton btnselectroomc = findViewById(R.id.btn_selectroom_c);
+                btnselectroomc.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(emplyeenewbooking.this,employeenewbookingselectdatetime.class);
+                        startActivity(intent);
+                    }
+                });
+
+                ImageButton btnselectroomd = findViewById(R.id.btn_selectroom_d);
+                btnselectroomd.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(emplyeenewbooking.this,employeenewbookingselectdatetime.class);
+                        startActivity(intent);
+                    }
+                });
+
+                ImageButton btnselectroome = findViewById(R.id.btn_selectroom_e);
+                btnselectroome.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(emplyeenewbooking.this, employeenewbookingselectdatetime.class);
+                        startActivity(intent);
+                    }
+                });
+
+                ImageButton btnselectroomf = findViewById(R.id.btn_selectroom_f);
+                btnselectroomf.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(emplyeenewbooking.this, employeenewbookingselectdatetime.class);
+                        startActivity(intent);
+                    }
+                });
+
+                ImageButton btnselectroomg = findViewById(R.id.btn_selectroom_g);
+                btnselectroomg.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(emplyeenewbooking.this,employeenewbookingselectdatetime .class);
+                        startActivity(intent);
+                    }
+                });
+
+                ImageButton btnselectroomh = findViewById(R.id.btn_selectroom_h);
+                btnselectroomh.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(emplyeenewbooking.this, employeenewbookingselectdatetime.class);
+                        startActivity(intent);
+                    }
+                });
+        ImageButton btnemplyeesmybooking = findViewById(R.id.btn_employee_menu_home_button);
+        btnemplyeesmybooking.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(emplyeenewbooking.this, employeehomepage.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton btnemplyeesmenubutton = findViewById(R.id.btn_employee_menu_menu_button);
+        btnemplyeesmenubutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(emplyeenewbooking.this, emplyeesmenu.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton btnemployeemybooking = findViewById(R.id.btn_employee_mybooking_button);
+        btnemployeemybooking.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(emplyeenewbooking.this, emplyeesmybooking.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton btnemplyeesmyprofile = findViewById(R.id.btn_employee_my_employee_profile_button);
+        btnemplyeesmyprofile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(emplyeenewbooking.this, emplyeesmyprofile.class);
+                startActivity(intent);
+            }
+        });
+
+    }
+}

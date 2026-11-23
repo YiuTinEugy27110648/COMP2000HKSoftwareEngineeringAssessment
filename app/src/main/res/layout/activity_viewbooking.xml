@@ -11,7 +11,7 @@
         android:id="@+id/iv_login_page"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="fitXY"
+        android:scaleType="fitCenter"
         android:src="@drawable/managermybookingselectroomclean"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +45,7 @@
                 android:layout_height="125dp"
                 android:layout_marginBottom="13dp"
                 android:background="@android:color/transparent"
-                android:scaleType="fitXY"
+                android:scaleType="fitCenter"
                 android:src="@drawable/bookingroom_selectroom_a" />
 
             <ImageButton
@@ -54,7 +54,7 @@
                 android:layout_height="125dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/transparent"
-                android:scaleType="fitXY"
+                android:scaleType="fitCenter"
                 android:src="@drawable/bookingroom_selectroom_b" />
 
             <ImageButton
@@ -63,7 +63,7 @@
                 android:layout_height="125dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/transparent"
-                android:scaleType="fitXY"
+                android:scaleType="fitCenter"
                 android:src="@drawable/bookingroom_selectroom_c" />
 
             <ImageButton
@@ -72,7 +72,7 @@
                 android:layout_height="125dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/transparent"
-                android:scaleType="fitXY"
+                android:scaleType="fitCenter"
                 android:src="@drawable/bookingroom_selectroom_d_b" />
 
             <ImageButton
@@ -81,7 +81,7 @@
                 android:layout_height="125dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/transparent"
-                android:scaleType="fitXY"
+                android:scaleType="fitCenter"
                 android:src="@drawable/bookingroom_selectroom_e" />
 
             <ImageButton
@@ -90,7 +90,7 @@
                 android:layout_height="125dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/transparent"
-                android:scaleType="fitXY"
+                android:scaleType="fitCenter"
                 android:src="@drawable/bookingroom_selectroom_f" />
 
             <ImageButton
@@ -99,7 +99,7 @@
                 android:layout_height="125dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/transparent"
-                android:scaleType="fitXY"
+                android:scaleType="fitCenter"
                 android:src="@drawable/bookingroom_selectroom_g" />
 
             <ImageButton
@@ -107,7 +107,7 @@
                 android:layout_width="338dp"
                 android:layout_height="125dp"
                 android:background="@android:color/transparent"
-                android:scaleType="fitXY"
+                android:scaleType="fitCenter"
                 android:src="@drawable/bookingroom_selectroom_h" />
 
         </LinearLayout>
