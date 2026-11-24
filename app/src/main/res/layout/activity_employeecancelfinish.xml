@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    Employee layout <ImageButton
+    <ImageButton
     android:id="@+id/btn_employee_menu_home_button"
     android:layout_width="0dp"
     android:layout_height="0dp"

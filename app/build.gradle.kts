@@ -36,6 +36,8 @@ android {
 }
 
 dependencies {
+    implementation("com.airbnb.android:lottie:6.6.7")
+
     implementation(libs.activity.ktx)
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)

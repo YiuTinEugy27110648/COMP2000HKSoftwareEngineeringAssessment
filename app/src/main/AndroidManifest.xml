@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COMP2000HKSoftwareEngineeringAssessment">
         <activity
-            android:name=".MainActivity"
+            android:name=".frontpageanimation"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -21,6 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name=".secondactivity"
             android:exported="false"
@@ -162,6 +166,7 @@
             android:name=".employeecancelfinish"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
     </application>
 
 </manifest>
