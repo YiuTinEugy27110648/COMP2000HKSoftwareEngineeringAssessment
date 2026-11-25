@@ -24,7 +24,7 @@ public class emplyeesmenu extends AppCompatActivity {
             return insets;
         });
 
-        ImageButton btemplyeesmybooking = findViewById(R.id.btn_managermybookingbutton);
+        ImageButton btemplyeesmybooking = findViewById(R.id.btn_employee_mybooking_button);
         btemplyeesmybooking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,7 +33,7 @@ public class emplyeesmenu extends AppCompatActivity {
             }
         });
 
-        ImageButton btnemplyeesmyprofile = findViewById(R.id.btn_managermyprofile);
+        ImageButton btnemplyeesmyprofile = findViewById(R.id.btn_employee_my_employee_profile_button);
         btnemplyeesmyprofile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,7 +42,7 @@ public class emplyeesmenu extends AppCompatActivity {
             }
         });
 
-        ImageButton btnemplyeesmenubutton = findViewById(R.id.btn_managermenubutton);
+        ImageButton btnemplyeesmenubutton = findViewById(R.id.btn_employee_menu_menu_button);
         btnemplyeesmenubutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +51,7 @@ public class emplyeesmenu extends AppCompatActivity {
             }
         });
 
-        ImageButton btnemplyeeshomepage = findViewById(R.id.btn_managermenuhomebutton);
+        ImageButton btnemplyeeshomepage = findViewById(R.id.btn_employee_menu_home_button);
         btnemplyeeshomepage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,7 +60,7 @@ public class emplyeesmenu extends AppCompatActivity {
             }
         });
 
-        ImageButton btnemplyeesmybooking = findViewById(R.id.btn_managermenumybooking);
+        ImageButton btnemplyeesmybooking = findViewById(R.id.btn_employee_menu_my_booking);
         btnemplyeesmybooking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -68,7 +68,7 @@ public class emplyeesmenu extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        ImageButton btnemplyeesnewbooking = findViewById(R.id.btn_managermenunewbooking);
+        ImageButton btnemplyeesnewbooking = findViewById(R.id.btn_employee_menu_new_booking);
         btnemplyeesnewbooking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,7 +77,7 @@ public class emplyeesmenu extends AppCompatActivity {
             }
         });
 
-        ImageButton btncancelbooking = findViewById(R.id.btn_managermenucancelbooking);
+        ImageButton btncancelbooking = findViewById(R.id.btn_employee_menu_cancel_booking);
         btncancelbooking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

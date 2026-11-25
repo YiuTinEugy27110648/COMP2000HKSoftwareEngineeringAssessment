@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitCenter"
-        android:src="@drawable/layouthorizontal"
+        android:src="@drawable/layouthorizontalsecond"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,8 +31,8 @@
 
     <ImageButton
         android:id="@+id/btn_managerlogin"
-        android:layout_width="150dp"
-        android:layout_height="23dp"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1488:216"
@@ -44,30 +44,30 @@
 
     <ImageButton
         android:id="@+id/btn_managerloginregister"
-        android:layout_width="28dp"
-        android:layout_height="15dp"
+        android:layout_width="45dp"
+        android:layout_height="17dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="3:1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815"
+        app:layout_constraintVertical_bias="0.807"
         app:layout_constraintWidth_percent="0.15 " />
 
     <ImageButton
         android:id="@+id/btn_back"
-        android:layout_width="38dp"
-        android:layout_height="18dp"
+        android:layout_width="42dp"
+        android:layout_height="23dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="2.5:1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.959"
+        app:layout_constraintVertical_bias="0.954"
         app:layout_constraintWidth_percent="0.18 " />
 
 

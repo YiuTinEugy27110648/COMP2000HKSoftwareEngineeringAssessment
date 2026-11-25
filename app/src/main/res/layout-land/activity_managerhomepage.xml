@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitCenter"
-        android:src="@drawable/layouthorizontal"
+        android:src="@drawable/layouthorizontalsecond"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,28 +32,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <ImageView
-        android:id="@+id/iv_login_pagebackup"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:alpha="0.5"
-        android:scaleType="fitCenter"
-        android:src="@drawable/managerhomepage"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-
-
-
     <HorizontalScrollView
         android:id="@+id/scroll_upcoming_booking"
         android:layout_width="0dp"
-        android:layout_marginStart="340dp"
-        android:layout_marginEnd="275dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginEnd="350dp"
         android:layout_height="wrap_content"
         android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,31 +49,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingStart="35dp"
-            android:paddingEnd="30dp">
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp">
 
             <ImageButton
                 android:id="@+id/btn_upcoming_first"
-                android:layout_width="150dp"
-                android:layout_height="120dp"
-                android:layout_marginEnd="12dp"
+                android:layout_width="90dp"
+                android:layout_height="115dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/manager_upcoming_booking_first" />
 
             <ImageButton
                 android:id="@+id/btn_upcoming_second"
-                android:layout_width="53dp"
-                android:layout_height="85dp"
-                android:layout_marginEnd="12dp"
+                android:layout_width="90dp"
+                android:layout_height="115dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/manager_upcoming_booking_second" />
 
             <ImageButton
                 android:id="@+id/btn_upcoming_third"
-                android:layout_width="53dp"
-                android:layout_height="85dp"
+                android:layout_width="90dp"
+                android:layout_height="115dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/manager_upcoming_booking_third" />
@@ -101,8 +84,8 @@
     <HorizontalScrollView
         android:id="@+id/scroll_room_states"
         android:layout_width="0dp"
-        android:layout_marginStart="300dp"
-        android:layout_marginEnd="275dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginEnd="350dp"
         android:layout_height="wrap_content"
         android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -115,13 +98,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingStart="53dp"
+            android:paddingStart="71dp"
             android:paddingEnd="24dp">
 
             <ImageButton
                 android:id="@+id/btn_roomstates_a"
-                android:layout_width="55dp"
-                android:layout_height="560dp"
+                android:layout_width="75dp"
+                android:layout_height="120dp"
                 android:layout_marginEnd="10dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
@@ -129,8 +112,8 @@
 
             <ImageButton
                 android:id="@+id/btn_roomstates_b"
-                android:layout_width="55dp"
-                android:layout_height="560dp"
+                android:layout_width="75dp"
+                android:layout_height="120dp"
                 android:layout_marginEnd="10dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
@@ -138,8 +121,8 @@
 
             <ImageButton
                 android:id="@+id/btn_roomstates_c"
-                android:layout_width="55dp"
-                android:layout_height="560dp"
+                android:layout_width="75dp"
+                android:layout_height="120dp"
                 android:layout_marginEnd="10dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
@@ -147,8 +130,8 @@
 
             <ImageButton
                 android:id="@+id/btn_roomstates_d"
-                android:layout_width="55dp"
-                android:layout_height="560dp"
+                android:layout_width="75dp"
+                android:layout_height="120dp"
                 android:layout_marginEnd="10dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
@@ -156,8 +139,8 @@
 
             <ImageButton
                 android:id="@+id/btn_roomstates_e"
-                android:layout_width="55dp"
-                android:layout_height="560dp"
+                android:layout_width="75dp"
+                android:layout_height="120dp"
                 android:layout_marginEnd="10dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
@@ -165,8 +148,8 @@
 
             <ImageButton
                 android:id="@+id/btn_roomstates_f"
-                android:layout_width="55dp"
-                android:layout_height="560dp"
+                android:layout_width="75dp"
+                android:layout_height="120dp"
                 android:layout_marginEnd="10dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
@@ -174,8 +157,8 @@
 
             <ImageButton
                 android:id="@+id/btn_roomstates_g"
-                android:layout_width="55dp"
-                android:layout_height="560dp"
+                android:layout_width="75dp"
+                android:layout_height="120dp"
                 android:layout_marginEnd="10dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
@@ -183,100 +166,93 @@
 
             <ImageButton
                 android:id="@+id/btn_roomstates_h"
-                android:layout_width="55dp"
-                android:layout_height="560dp"
+                android:layout_width="75dp"
+                android:layout_height="120dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/manager_roomstates_h" />
 
+
         </LinearLayout>
     </HorizontalScrollView>
 
-
-
-
     <ImageButton
         android:id="@+id/btn_managernewbooking"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="111dp"
+        android:layout_height="46dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintDimensionRatio="4:1.3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.471"
-        app:layout_constraintWidth_percent="0.41" />
+        app:layout_constraintVertical_bias="0.472" />
 
     <ImageButton
         android:id="@+id/btn_manager_cancel_booking"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="119dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="260dp"
         android:background="@android:color/transparent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintDimensionRatio="4:1.3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.471"
-        app:layout_constraintWidth_percent="0.41" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/btn_managermenuhomebutton"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="40dp"
+        android:layout_height="29dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="2:1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintHorizontal_bias="0.39"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.97"
+        app:layout_constraintVertical_bias="0.98"
         app:layout_constraintWidth_percent="0.15 " />
 
     <ImageButton
         android:id="@+id/btn_managermenubutton"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="2:1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.969"
+        app:layout_constraintVertical_bias="0.98"
         app:layout_constraintWidth_percent="0.15" />
 
     <ImageButton
         android:id="@+id/btn_managermybookingbutton"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="46dp"
+        android:layout_height="33dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="2:1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.969"
+        app:layout_constraintVertical_bias="0.98"
         app:layout_constraintWidth_percent="0.15" />
 
     <ImageButton
         android:id="@+id/btn_managermyprofile"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="46dp"
+        android:layout_height="33dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="2:1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintHorizontal_bias="0.61"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.969"
+        app:layout_constraintVertical_bias="0.98"
         app:layout_constraintWidth_percent="0.15" />
 
 

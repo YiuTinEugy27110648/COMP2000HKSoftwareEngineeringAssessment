@@ -9,38 +9,43 @@
 
     <ImageView
         android:id="@+id/iv_login_page_horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="1009dp"
+        android:layout_height="649dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/layouthorizontal"
+        android:src="@drawable/layouthorizontalsecond"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/iv_get_started"
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/get_started_page"
         android:scaleType="fitCenter"
+        android:src="@drawable/get_started_page"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btn"
-        android:layout_width="157dp"
-        android:layout_height="33dp"
-        android:background="#55FF0000"
+        android:layout_width="215dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1288:216"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722"
+        app:layout_constraintVertical_bias="0.717"
         app:layout_constraintWidth_percent="0.78" />
 
 

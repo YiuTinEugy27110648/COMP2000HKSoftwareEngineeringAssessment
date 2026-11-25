@@ -103,30 +103,30 @@
 
     <ImageButton
         android:id="@+id/btn_cancel_room_b"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="325dp"
+        android:layout_height="115dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="688:241"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453"
+        app:layout_constraintVertical_bias="0.452"
         app:layout_constraintWidth_percent="0.85" />
 
     <ImageButton
         android:id="@+id/btn_cancel_room_c"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="325dp"
+        android:layout_height="118dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="688:241"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.656"
+        app:layout_constraintVertical_bias="0.645"
         app:layout_constraintWidth_percent="0.83" />
 
 
